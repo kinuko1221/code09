@@ -32,7 +32,7 @@ playButton.addEventListener("click", play);
 
 function pause(event){
   var player = document.querySelector("audio");
-  console.log("play");
+  console.log("pause");
   player.pause();
 }
 
